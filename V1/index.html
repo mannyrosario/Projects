@@ -1,10 +1,53 @@
 <!DOCTYPE html>
+
+<!--M1LO6 Demonstrate the use of basic HTML tags 
+to create a simple Web page (HTML, this item should be
+ specified once, describing how the file it is in meets 
+ this outcome)-->
+ 
 <html>
+    
     <head>
+        <!--
+            M02 Project V1
+            Gundam Worl Home Page
+            Author: Manuel Delgado
+            Date: May 3 2020
+        -->
         <meta charset="UTF-8">
-        <title>GitHub Fun</title>
+        <title>Gundam World</title>
+        <meta name="keywords" content="Home, News, Anime, Gundam Model Kit" />
+
+        <!--M108 Demonstrate the use of external style sheets 
+            (HTML, note the external style sheet must exist
+             and contain CSS-->
+        <link href="styles.css" rel="stylesheet" />
+
     </head>
     <body>
-        <!-- Stuff goes here -->
+        <header>
+
+             <!-- M1LO9 Demonstrate the use of inline images
+                I have inserted an image below.-->
+
+            <a href="index.html"><img src="banner.jpg" alt="Gundam World" /></a>
+        <nav>
+            <ul>
+
+        <!-- M1LO13 Demonstrate using 3 types of hyperlinks: 
+            site navigation, targeted location using ids, and 
+            external These are site navigation hyperlinks.
+             They link to my other pages. -->
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="anime.html">ANIME</a></li> 
+                <li><a href="gundammodelkit.html">GUNDAM MDOEL KITS</a></li>       
+            </ul>
+        </nav>
+        </header>
+        <footer>
+
+        </footer>
     </body>
 </html>
