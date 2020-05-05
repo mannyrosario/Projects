@@ -8,17 +8,27 @@ html {
 }
 
 body{
-    background-color: white;
+    background-color: lightblue;
 }
 
 body > header nav {
-    text-align: left;
+    text-align: start;
+    color: yellow;
     background-color: black;
 }
+
+body > p {
+    text-align: center;
+    font-size: 1.6em;
+    }
 
 address {
     font-style: italic;
     text-align: center;
     font-size: medium;
+    color: yellow;
+}
+h2 {
+    font-style: oblique;
     color: yellow;
 }
